@@ -39,15 +39,15 @@ type
   twoferTest = class(TObject)
   public
     [Test]
-//    [Ignore('Comment the "[Ignore]" statement to run the test')]
+//    [Ignore('Comment the "// [Ignore]" statement to run the test')]
     procedure No_name_given;
 
     [Test]
-    [Ignore]
+    // [Ignore]
     procedure A_name_given;
 
     [Test]
-    [Ignore]
+    // [Ignore]
     procedure Another_name_given;
   end;
 
