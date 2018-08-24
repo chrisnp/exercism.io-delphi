@@ -8,11 +8,11 @@ implementation
 
   function reverse(input : String) : String;
   var
-    i : integer;
+    c : Char;
   begin
     result := '';
-    for i := Low(input) to High(input) do
-      result := input[i] + result;
+    for c in input do
+      result := c + result;
   end;
 
 end.

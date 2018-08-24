@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<test-results name="C:\Users\Chris\exercism\delphi\reverse-string\ReverseString.exe" total="5" errors="0" failures="0" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2018-08-24" time="0.005">
+<test-results name="C:\Users\Chris\exercism\delphi\reverse-string\ReverseString.exe" total="5" errors="0" failures="0" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2018-08-24" time="0.004">
   <culture-info current-culture="en" current-uiculture="en" />
-  <test-suite type="Assembly" name="ReverseString.exe" executed="true" result="Success" success="True" time="0.005" asserts="0">
+  <test-suite type="Assembly" name="ReverseString.exe" executed="true" result="Success" success="True" time="0.004" asserts="0">
     <results>
         <test-suite type="Namespace" name="uReverseStringTests" executed="true" result="Success" success="True" time="0.002" asserts="0" >
           <results>
