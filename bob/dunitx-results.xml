@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<test-results name="C:\Users\Chris\exercism\delphi\bob\Bob.exe" total="25" errors="0" failures="0" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2018-08-25" time="0.020">
+  <culture-info current-culture="en" current-uiculture="en" />
+  <test-suite type="Assembly" name="Bob.exe" executed="true" result="Success" success="True" time="0.020" asserts="0">
+    <results>
+        <test-suite type="Namespace" name="uBobTests" executed="true" result="Success" success="True" time="0.019" asserts="0" >
+          <results>
+              <test-suite type="Fixture" name="BobTests" executed="True" result="Success" success="True" time="0.019" >
+                <results>
+                  <test-case name="Stating_something" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+                  <test-case name="Shouting" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                  <test-case name="Shouting_gibberish" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Asking_a_question" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Asking_a_numeric_question" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Asking_gibberish" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Talking_forcefully" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Using_acronyms_in_regular_speech" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Forceful_questions" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Shouting_numbers" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="No_letters" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Question_with_no_letters" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Shouting_with_special_characters" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                  <test-case name="Shouting_with_no_exclamation_mark" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Statement_containing_question_mark" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                  <test-case name="non_letters_with_question" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                  <test-case name="Prattling_on" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                  <test-case name="Silence" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Prolonged_silence" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Alternate_silence" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Multiple_line_question" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Starting_with_whitespace" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Ending_with_whitespace" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Other_whitespace" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Non_question_ending_with_whitespace" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+          </results>
+        </test-suite>
+    </results>
+  </test-suite>
+</test-results>
