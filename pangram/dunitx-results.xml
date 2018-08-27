@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<test-results name="C:\Users\Chris\exercism\delphi\pangram\Pangram.exe" total="10" errors="0" failures="0" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2018-08-26" time="0.024">
+  <culture-info current-culture="en" current-uiculture="en" />
+  <test-suite type="Assembly" name="Pangram.exe" executed="true" result="Success" success="True" time="0.024" asserts="0">
+    <results>
+        <test-suite type="Namespace" name="uPangramTests" executed="true" result="Success" success="True" time="0.018" asserts="0" >
+          <results>
+              <test-suite type="Fixture" name="PangramTests" executed="True" result="Success" success="True" time="0.018" >
+                <results>
+                  <test-case name="sentence_empty" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="recognizes_a_perfect_lower_case_pangram" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="pangram_with_only_lower_case" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="missing_character_x" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="another_missing_character_h" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="pangram_with_underscores" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="pangram_with_numbers" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="missing_letters_replaced_by_numbers" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="pangram_with_mixed_case_and_punctuation" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="upper_and_lower_case_versions_of_the_same_character_should_not_be_counted_separately" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+          </results>
+        </test-suite>
+    </results>
+  </test-suite>
+</test-results>
