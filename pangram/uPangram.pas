@@ -2,9 +2,9 @@ unit uPangram;
 
 interface
 
-//uses System.Generics.Collections;
+uses System.Generics.Collections;
 type
-  TLetters = set of char;
+  TLetters = set of Char;
 
 function isPangram(words: string): Boolean;
 
@@ -14,22 +14,16 @@ uses SysUtils;
 
 function isPangram(words: string): Boolean;
 var
-//  Letters: TList<char>;
   Letters : TLetters;
   ch: char;
-  i: Integer;
 begin
   result := false;
-  Letters := TLetters;
   Letters := [];
-  // SetLength(Letters, words.Length);
+
   for ch in words.ToLowerInvariant do
-    if (ch in ['a' .. 'z']) then
-      if (not (ch in Letters)) then
-      begin
-        Letters.;
-      end;
-  result := Length(Letters) = 26;
+    if (CharInSet(ch, ['a'..'z']) and (not CharInSet(ch, Letters))) then
+        Letters := [ch];
+    result := ['a'..'z'] = Letters;
 end;
 
 end.
