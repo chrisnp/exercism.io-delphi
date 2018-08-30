@@ -9,18 +9,18 @@ implementation
 
   function isIsogram(word : String) : Boolean;
   var
-    Letters : set of Char;
+    Letters : String;
     ch : Char;
     normal: String;
   begin
-    Letters := [];
+    Letters := '';
     normal := word.ToLowerInvariant.Replace('-','').Replace(' ','');
     for ch in normal do
     begin
-      if (ch in Letters) then
+      if (Letters.contains(ch)) then
         exit(false)
       else
-        Letters := Letters + [ch];
+        Letters := Letters + ch;
     end;
     result := True;
   end;

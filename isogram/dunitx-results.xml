@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<test-results name="C:\Users\Chris\exercism\delphi\isogram\Isogram.exe" total="10" errors="0" failures="0" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2018-08-28" time="0.008">
+<test-results name="C:\Users\Chris\exercism\delphi\isogram\Isogram.exe" total="10" errors="0" failures="0" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2018-08-31" time="0.002">
   <culture-info current-culture="en" current-uiculture="en" />
-  <test-suite type="Assembly" name="Isogram.exe" executed="true" result="Success" success="True" time="0.008" asserts="0">
+  <test-suite type="Assembly" name="Isogram.exe" executed="true" result="Success" success="True" time="0.002" asserts="0">
     <results>
-        <test-suite type="Namespace" name="uIsogramTests" executed="true" result="Success" success="True" time="0.006" asserts="0" >
+        <test-suite type="Namespace" name="uIsogramTests" executed="true" result="Success" success="True" time="0.002" asserts="0" >
           <results>
-              <test-suite type="Fixture" name="IsogramTests" executed="True" result="Success" success="True" time="0.006" >
+              <test-suite type="Fixture" name="IsogramTests" executed="True" result="Success" success="True" time="0.002" >
                 <results>
-                  <test-case name="empty_string" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                  <test-case name="empty_string" executed="True" result="Success" success="True" time="0.000" asserts="0" />
                   <test-case name="isogram_with_only_lower_case_characters" executed="True" result="Success" success="True" time="0.000" asserts="0" />
                   <test-case name="word_with_one_duplicated_character" executed="True" result="Success" success="True" time="0.000" asserts="0" />
                   <test-case name="word_with_one_duplicated_character_from_the_end_of_the_alphabet" executed="True" result="Success" success="True" time="0.000" asserts="0" />
