@@ -2,28 +2,25 @@ unit uPangram;
 
 interface
 
-  type
-    TLetters = set of Char;
-
   function isPangram (words : string) : Boolean;
-
 
 implementation
 
-  uses SysUtils;
+  uses System.SysUtils, System.Generics.Collections,
+       System.Character;
 
   function isPangram (words : string) : Boolean;
   var
-    Letters: TLetters;
+    Letters: TList<char>;
     ch: Char;
   begin
     result := false;
-    Letters := [];
-    for ch in words.ToLower do
-      if (ch in ['a'..'z']) then
-        if (not (ch in Letters)) then
-          Letters := Letters + [ch];
-    result := ['a'..'z'] = Letters;
+    Letters := TList<char>.Create;
+    for ch in words.ToLowerInvariant do
+      if (IsLetter(ch)) and (not Letters.Contains(ch)) then
+        Letters.Add(ch);
+    result := Letters.Count = 26;
+    Letters.Free;
   end;
 
 end.
