@@ -3,7 +3,7 @@ unit uLeap;
 interface
   type
     TYear = class
-      public class function IsLeap(year : Integer) : Boolean; static;
+      class function IsLeap(year : Integer) : Boolean;
     end;
 
 implementation
