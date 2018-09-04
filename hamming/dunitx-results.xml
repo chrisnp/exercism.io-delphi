@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<test-results name="C:\Users\Chris\exercism\delphi\hamming\Hamming.exe" total="15" errors="0" failures="0" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2018-08-24" time="0.010">
+<test-results name="C:\Users\Chris\exercism\delphi\hamming\Hamming.exe" total="15" errors="0" failures="0" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2018-09-04" time="0.012">
   <culture-info current-culture="en" current-uiculture="en" />
-  <test-suite type="Assembly" name="Hamming.exe" executed="true" result="Success" success="True" time="0.010" asserts="0">
+  <test-suite type="Assembly" name="Hamming.exe" executed="true" result="Success" success="True" time="0.012" asserts="0">
     <results>
-        <test-suite type="Namespace" name="uHammingTests" executed="true" result="Success" success="True" time="0.008" asserts="0" >
+        <test-suite type="Namespace" name="uHammingTests" executed="true" result="Success" success="True" time="0.007" asserts="0" >
           <results>
-              <test-suite type="Fixture" name="HammingTests" executed="True" result="Success" success="True" time="0.008" >
+              <test-suite type="Fixture" name="HammingTests" executed="True" result="Success" success="True" time="0.007" >
                 <results>
                   <test-case name="empty_strands" executed="True" result="Success" success="True" time="0.000" asserts="0" />
                   <test-case name="identical_strands" executed="True" result="Success" success="True" time="0.000" asserts="0" />
                   <test-case name="long_identical_strands" executed="True" result="Success" success="True" time="0.000" asserts="0" />
                   <test-case name="complete_distance_in_single_nucleotide_strands" executed="True" result="Success" success="True" time="0.000" asserts="0" />
-                  <test-case name="complete_distance_in_small_strands" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                  <test-case name="complete_distance_in_small_strands" executed="True" result="Success" success="True" time="0.000" asserts="0" />
                   <test-case name="small_distance_in_small_strands" executed="True" result="Success" success="True" time="0.000" asserts="0" />
                   <test-case name="small_distance" executed="True" result="Success" success="True" time="0.000" asserts="0" />
                   <test-case name="small_distance_in_long_strands" executed="True" result="Success" success="True" time="0.000" asserts="0" />
@@ -20,7 +20,7 @@
                   <test-case name="same_nucleotides_in_different_positions" executed="True" result="Success" success="True" time="0.000" asserts="0" />
                   <test-case name="large_distance" executed="True" result="Success" success="True" time="0.000" asserts="0" />
                   <test-case name="large_distance_in_off_by_one_strand" executed="True" result="Success" success="True" time="0.000" asserts="0" />
-                  <test-case name="disallow_first_strand_longer" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="disallow_first_strand_longer" executed="True" result="Success" success="True" time="0.001" asserts="0" />
                   <test-case name="disallow_second_strand_longer" executed="True" result="Success" success="True" time="0.000" asserts="0" />
                 </results>
               </test-suite>
