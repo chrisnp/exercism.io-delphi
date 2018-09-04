@@ -9,20 +9,20 @@ interface
 implementation
 
   function squareOfSum(maxNum: Integer): Integer;
-  var n: Integer;
+  var sum, n: Integer;
   begin
-    result := 0;
+    sum := 0;
     for n := 1 to maxNum do
-      result := result + n;
-    result := sqr(result);
+      sum := sum + n;
+    result := sum * sum;
   end;
 
   function sumOfSquares(maxNum: Integer): Integer;
-  var n: Integer;
+  var i, n: Integer;
   begin
     result := 0;
     for n := 1 to maxNum do
-      result := result + sqr(n);
+      result := result + (n*n);
   end;
 
   function differenceOfSquares(maxNum: Integer): Integer;

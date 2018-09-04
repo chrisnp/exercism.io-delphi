@@ -4,7 +4,9 @@ interface
 
   type
     THamming = class
-      class function Distance(strand1, strand2 : String) : integer;
+      public
+        class function Distance(strand1, strand2 : String) : integer;
+        static;
     end;
 
 implementation
