@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<test-results name="C:\Users\Chris\exercism\delphi\difference-of-squares\DifferenceOfSquares.exe" total="9" errors="0" failures="0" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2018-09-04" time="0.020">
+<test-results name="~\exercism\delphi\difference-of-squares\DifferenceOfSquares.exe" total="9" errors="0" failures="0" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2018-09-04" time="0.020">
   <culture-info current-culture="en" current-uiculture="en" />
   <test-suite type="Assembly" name="DifferenceOfSquares.exe" executed="true" result="Success" success="True" time="0.020" asserts="0">
     <results>
