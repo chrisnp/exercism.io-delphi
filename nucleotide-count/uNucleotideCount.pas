@@ -21,6 +21,8 @@ type
 implementation
 
   constructor TDNA.Create(s: string);
+  var
+    nuc : Char;
   begin
     strand := s;
     nDictionary := TDictionary<Char,Integer>.Create;
@@ -28,6 +30,14 @@ implementation
     nDictionary.Add('G',0);
     nDictionary.Add('A',0);
     nDictionary.Add('T',0);
+
+    for nuc in strand do
+    begin
+      if not nDictionary.ContainsKey(nuc) then
+        raise EInvalidNucleotideException.Create('Invalid nucleotide in strand');
+      nDictionary.Items[nuc] := nDictionary.Items[nuc] + 1
+    end;
+
   end;
 
   destructor TDNA.Destroy;
@@ -37,22 +47,13 @@ implementation
 
   function TDNA.Count(nucleotide : Char) : Integer;
   begin
-    try
-      result := nDictionary.Items[nucleotide];
-    except
-      raise EInvalidNucleotideException.Create('Invalid nucleotide in strand');
-    end;
+    result := nDictionary.Items[nucleotide];
   end;
 
   function TDNA.NucleotideCounts : TDictionary<Char,Integer>;
-  var nuc : Char;
   begin
-    for nuc in strand do
-    begin
-      if nDictionary.ContainsKey(nuc) then
-        nDictionary.Items[nuc] := nDictionary.Items[nuc] + 1;
-    end;
     result := nDictionary;
   end;
 
 end.
+

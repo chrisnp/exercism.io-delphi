@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<test-results name="C:\Users\Chris\exercism\delphi\nucleotide-count\NucleotideCount.exe" total="6" errors="0" failures="0" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2018-09-18" time="0.001">
+<test-results name="~\exercism\delphi\nucleotide-count\NucleotideCount.exe" total="6" errors="0" failures="0" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2018-09-19" time="0.001">
   <culture-info current-culture="en" current-uiculture="en" />
   <test-suite type="Assembly" name="NucleotideCount.exe" executed="true" result="Success" success="True" time="0.001" asserts="0">
     <results>
@@ -12,7 +12,7 @@
                   <test-case name="can_count_one_nucleotide_in_single_character_input" executed="True" result="Success" success="True" time="0.000" asserts="0" />
                   <test-case name="strand_with_repeated_nucleotide" executed="True" result="Success" success="True" time="0.000" asserts="0" />
                   <test-case name="strand_with_multiple_nucleotides" executed="True" result="Success" success="True" time="0.000" asserts="0" />
-                  <test-case name="strand_with_invalid_nucleotides" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                  <test-case name="strand_with_invalid_nucleotides" executed="True" result="Success" success="True" time="0.000" asserts="0" />
                 </results>
               </test-suite>
           </results>
