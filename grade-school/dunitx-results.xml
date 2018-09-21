@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<test-results name="~\exercism\delphi\grade-school\GradeSchool.exe" total="7" errors="0" failures="0" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2018-09-21" time="0.001">
+  <culture-info current-culture="en" current-uiculture="en" />
+  <test-suite type="Assembly" name="GradeSchool.exe" executed="true" result="Success" success="True" time="0.001" asserts="0">
+    <results>
+        <test-suite type="Namespace" name="uGradeSchoolTest" executed="true" result="Success" success="True" time="0.001" asserts="0" >
+          <results>
+              <test-suite type="Fixture" name="GradeSchoolTest" executed="True" result="Success" success="True" time="0.001" >
+                <results>
+                  <test-case name="Adding_a_student_adds_them_to_the_sorted_roster" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Adding_more_student_adds_them_to_the_sorted_roster" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Adding_students_to_different_grades_adds_them_to_the_same_sorted_roster" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Roster_returns_an_empty_list_if_there_are_no_students_enrolled" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Student_names_with_grades_are_displayed_in_the_same_sorted_roster" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Grade_returns_the_students_in_that_grade_in_alphabetical_order" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Grade_returns_an_empty_list_if_there_are_no_students_in_that_grade" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+          </results>
+        </test-suite>
+    </results>
+  </test-suite>
+</test-results>
