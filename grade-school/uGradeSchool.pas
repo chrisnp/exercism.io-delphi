@@ -24,7 +24,7 @@ implementation
       studentsInGrades: TDictionary<Integer, TRoster>;
     public
       constructor Create;
-      destructor Destroy;
+      destructor Destroy; reintroduce;
       procedure Add(name: String; grade: Integer);
       function Roster: TRoster;
       function grade(grade: Integer): TRoster;
@@ -60,27 +60,25 @@ implementation
     someGrade: TRoster;
   begin
     if studentsInGrades.ContainsKey(grade) then
-    begin
-      someGrade := studentsInGrades.Items[grade];
-      someGrade.Add(name);
-    end
+      studentsInGrades.Items[grade].Add(name)
     else
     begin
       someGrade := TRoster.Create;
       studentsInGrades.Add(grade, someGrade);
       someGrade.Add(name);
     end;
+
   end;
 
   function TSchool.grade(grade: Integer): TRoster;
   var
-    Roster: TRoster;
+    roster: TRoster;
   begin
     if studentsInGrades.ContainsKey(grade) then
     begin
-      Roster := studentsInGrades.Items[grade];
-      Roster.Sort;
-      result := Roster;
+      roster := studentsInGrades.Items[grade];
+      roster.Sort;
+      result := roster;
     end
     else
       result := TRoster.Create;
