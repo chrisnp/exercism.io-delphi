@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<test-results name="~\exercism\delphi\triangle\Triangle.exe" total="17" errors="0" failures="0" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2018-09-24" time="0.001">
+  <culture-info current-culture="en" current-uiculture="en" />
+  <test-suite type="Assembly" name="Triangle.exe" executed="true" result="Success" success="True" time="0.001" asserts="0">
+    <results>
+        <test-suite type="Namespace" name="uTestTriangle" executed="true" result="Success" success="True" time="0.001" asserts="0" >
+          <results>
+              <test-suite type="Fixture" name="Scalene" executed="True" result="Success" success="True" time="0.001" >
+                <results>
+                  <test-case name="True_if_no_sides_are_equal" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="False_if_all_sides_are_equal" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="False_if_two_sides_are_equal" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Sides_that_violate_triangle_inequality_are_not_scalene_even_if_they_are_all_different" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Sides_may_be_floats" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+          </results>
+        </test-suite>
+        <test-suite type="Fixture" name="Equilateral" executed="True" result="Success" success="True" time="0.001" >
+          <results>
+            <test-case name="True_if_all_sides_are_equal" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="False_if_any_side_is_unequal" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="False_if_no_sides_are_equal" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="All_zero_sides_are_illegal_so_the_triangle_is_not_equilateral" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Sides_may_be_floats" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+          </results>
+        </test-suite>
+        <test-suite type="Fixture" name="Isosceles" executed="True" result="Success" success="True" time="0.000" >
+          <results>
+            <test-case name="True_if_last_two_sides_are_equal" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="True_if_first_two_sides_are_equal" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="True_if_first_and_last_sides_are_equal" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Equilateral_triangles_are_also_isosceles" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="False_if_no_sides_are_equal" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Sides_that_violate_triangle_inequality_are_not_isosceles_even_if_two_are_equal" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Sides_may_be_floats" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+          </results>
+        </test-suite>
+    </results>
+  </test-suite>
+</test-results>
