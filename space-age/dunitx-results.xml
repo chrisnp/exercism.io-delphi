@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<test-results name="~\exercism\delphi\space-age\SpaceAge.exe" total="8" errors="0" failures="0" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2018-09-24" time="0.001">
+  <culture-info current-culture="en" current-uiculture="en" />
+  <test-suite type="Assembly" name="SpaceAge.exe" executed="true" result="Success" success="True" time="0.001" asserts="0">
+    <results>
+        <test-suite type="Namespace" name="uSpaceAgeTests" executed="true" result="Success" success="True" time="0.001" asserts="0" >
+          <results>
+              <test-suite type="Fixture" name="SpaceAgeTests" executed="True" result="Success" success="True" time="0.001" >
+                <results>
+                  <test-case name="Age_on_earth" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Age_on_mercury" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Age_on_venus" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Age_on_mars" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Age_on_jupiter" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Age_on_saturn" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Age_on_uranus" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Age_on_neptune" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+          </results>
+        </test-suite>
+    </results>
+  </test-suite>
+</test-results>
