@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<test-results name="~\exercism\delphi\collatz-conjecture\Collatzconjecture.exe" total="6" errors="0" failures="0" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2018-09-24" time="0.002">
+  <culture-info current-culture="en" current-uiculture="en" />
+  <test-suite type="Assembly" name="Collatzconjecture.exe" executed="true" result="Success" success="True" time="0.002" asserts="0">
+    <results>
+        <test-suite type="Namespace" name="uCollatzconjectureTest" executed="true" result="Success" success="True" time="0.002" asserts="0" >
+          <results>
+              <test-suite type="Fixture" name="CollatzconjectureTest" executed="True" result="Success" success="True" time="0.002" >
+                <results>
+                  <test-case name="Zero_steps_for_one.Zero steps for one" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Divide_if_even.Divide if even" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Even_and_odd_steps.Even and odd steps" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Large_number_of_even_and_odd_steps.Large number of even and odd steps" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Zero_is_an_error.Zero is an error" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Negative_value_is_an_error.Negative value is an error" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+          </results>
+        </test-suite>
+    </results>
+  </test-suite>
+</test-results>
