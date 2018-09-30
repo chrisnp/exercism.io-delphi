@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<test-results name="~\exercism\delphi\clock\Clock.exe" total="51" errors="0" failures="0" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2018-09-30" time="0.003">
+  <culture-info current-culture="en" current-uiculture="en" />
+  <test-suite type="Assembly" name="Clock.exe" executed="true" result="Success" success="True" time="0.003" asserts="0">
+    <results>
+        <test-suite type="Namespace" name="uClockTest" executed="true" result="Success" success="True" time="0.002" asserts="0" >
+          <results>
+              <test-suite type="Fixture" name="Subtract minutes" executed="True" result="Success" success="True" time="0.002" >
+                <results>
+                  <test-case name="Subtract_minutes" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Subtract_to_previous_hour" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Subtract_more_than_one_hour" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Subtract_across_midnight" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Subtract_more_than_two_hours" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Subtract_more_than_two_hours_with_borrow" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Subtract_more_than_one_day" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Subtract_more_than_two_days" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+          </results>
+        </test-suite>
+        <test-suite type="Fixture" name="Create a new clock with an initial time" executed="True" result="Success" success="True" time="0.002" >
+          <results>
+            <test-case name="On_the_hour" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Past_the_hour" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Midnight_is_zero_hours" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Hour_rolls_over" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Hour_rolls_over_continuously" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Sixty_minutes_is_next_hour" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Minutes_roll_over" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Minutes_roll_over_continuously" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Hour_and_minutes_roll_over" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Hour_and_minutes_roll_over_continuously" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Hour_and_minutes_roll_over_to_exactly_midnight" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Negative_hour" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Negative_hour_rolls_over" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Negative_hour_rolls_over_continuously" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Negative_minutes" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Negative_minutes_roll_over" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Negative_minutes_roll_over_continuously" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Negative_hour_and_minutes_both_roll_over" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Negative_hour_and_minutes_both_roll_over_continuously" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+          </results>
+        </test-suite>
+        <test-suite type="Fixture" name="Add minutes" executed="True" result="Success" success="True" time="0.001" >
+          <results>
+            <test-case name="Add_minutes" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Add_no_minutes" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Add_to_next_hour" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Add_more_than_one_hour" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Add_more_than_two_hours_with_carry" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Add_across_midnight" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Add_more_than_one_day" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Add_more_than_two_days" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+          </results>
+        </test-suite>
+        <test-suite type="Fixture" name="Compare two clocks for equality" executed="True" result="Success" success="True" time="0.001" >
+          <results>
+            <test-case name="Clocks_with_same_time" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Clocks_a_minute_apart" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Clocks_an_hour_apart" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Clocks_with_hour_overflow" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Clocks_with_hour_overflow_by_several_days" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Clocks_with_negative_hour" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Clocks_with_negative_hour_that_wraps" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Clocks_with_negative_hour_that_wraps_multiple_times" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Clocks_with_minute_overflow" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Clocks_with_minute_overflow_by_serveral_days" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Clocks_with_negative_minute" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Clocks_with_negative_minute_that_wraps" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Clocks_with_negative_minute_that_wraps_multiple_times" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Clocks_with_negative_hours_and_minutes" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="Clocks_with_negative_hours_and_minutes_that_wrap" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            <test-case name="full_clock_and_zeroed_clock" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+          </results>
+        </test-suite>
+    </results>
+  </test-suite>
+</test-results>
