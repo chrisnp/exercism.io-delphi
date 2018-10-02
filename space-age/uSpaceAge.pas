@@ -20,22 +20,21 @@ implementation
 
 uses System.Math;
 
-const
-  EARTH_SECONDS = 31557600;
-  EARTH = 1.0;
-  MERCURY = 0.2408467;
-  VENUS = 0.61519726;
-  MARS = 1.8808158;
-  JUPITER = 11.862615;
-  SATURN = 29.447498;
-  URANUS = 84.016846;
-  NEPTUNE = 164.79132;
-
 type
   TSpaceAge = class(TInterfacedObject, ISpaceAge)
   private
     fSeconds: Int64;
     function OnPlanet(orbitalPeriod: double): double;
+    const
+      EARTH_SECONDS = 31557600;
+      EARTH = 1.0;
+      MERCURY = 0.2408467;
+      VENUS = 0.61519726;
+      MARS = 1.8808158;
+      JUPITER = 11.862615;
+      SATURN = 29.447498;
+      URANUS = 84.016846;
+      NEPTUNE = 164.79132;
   public
     function OnMercury: double;
     function OnVenus: double;
