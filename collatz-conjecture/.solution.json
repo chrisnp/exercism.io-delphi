@@ -1,1 +1,9 @@
-{"track":"delphi","exercise":"collatz-conjecture","id":"cc4d5d692d1846419e43687b153cc592","url":"https://exercism.io/my/solutions/cc4d5d692d1846419e43687b153cc592","handle":"heptalophos","is_requester":true,"auto_approve":false}
+{
+    "track": "delphi",
+    "exercise": "collatz-conjecture",
+    "id": "cc4d5d692d1846419e43687b153cc592",
+    "url": "https://exercism.io/tracks/delphi/exercises/collatz-conjecture/solutions/cc4d5d692d1846419e43687b153cc592",
+    "handle": "heptalophos",
+    "is_requester": true,
+    "auto_approve": false
+}
